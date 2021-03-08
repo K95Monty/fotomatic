@@ -1,0 +1,127 @@
+ol, ul {
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Navigation at the top */
+header {
+	height: 85px;
+	width: 100%;
+}
+
+header .content {
+	margin: 0 30px;
+}
+
+.desktop li a {
+	color: #4A4A4A;
+	font-size: 16px;
+	font-family: Roboto-Regular;
+	line-height: 1.6;
+	display: inline-block;
+	float: right;
+}
+
+.desktop li img {
+	height: 16px;
+}
+
+/* Green Background center heading */
+
+#sign-up-section {
+	width: 100%;
+	background-image: url("../resources/images/banner-landingpage.jpg");
+}
+
+#sign-up-cta {
+	background-color: #9DC20A;
+	border: 1px solid #979797;
+	border-radius: 4px;
+	text-align: center;
+	margin: 170px 100px;
+}
+
+.header h1 {
+	color: white;
+	font-size: 50px;
+	font-family: Rubik-Regular; /*fix as font-face */
+	line-height: 1.4;
+}
+
+.header h2 {
+	color: white;
+	margin-top: 32px;
+}
+
+.email span {
+	color: white;
+	font-size: 20px;
+	font-family: Roboto-Regular; /*fix as font-face */
+	line-height: 1.4;
+	text-align: center;
+	margin: 12px auto 0 auto;
+}
+
+.email .button {
+	color: white;
+	font-size: 20px;
+	font-family: Roboto-Medium; /*fix as font-face */
+	line-height: 1.4;
+	background-color: #4A4A4A;
+	border-radius: 4px;
+	height: 64px;
+	width: 408px;
+	text-align: center;
+	margin: 26px auto 56px auto;
+} 
+
+/* Features */
+#features-section {
+	background-color: #F3F3F3;
+}
+
+/* Filters section */
+#filters-section {
+	background-color: #4A4A4A;
+}
+.image-container {
+	display: inline-block;
+	margin: 80px 1px 64px 1px;
+}
+
+/* Quotes */
+#quotes-section {
+	background-color: #F3F3F3;
+}
+
+#quotes-section .quote {
+	color: #4A4A4A;
+	font-size: 30px;
+	font-family: Platino-italic;
+	line-height: 1.1;
+}
+
+/* Footer */
+footer {
+	background-color: #9B9B9B;
+	height: 62px;
+}
+
+footer .content {
+	margin: 0 32px;
+	color: white;
+	font-size: 12px;
+	font-family: Roboto-Regular;
+}
+
+footer .location {
+	float: right;
+}
+
+footer .copyright, .location {
+	position: relative;
+	top: 24px;
+}
